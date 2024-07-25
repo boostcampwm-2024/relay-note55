@@ -23,6 +23,28 @@
 **J022 김경연**
 - 월요일: 그냥 클래스 문법이 다양하네.. 하고 넘어가지 않고 JS prototype을 분석하고 자료로 남김
 
+**J217 전현민**
+```javascript
+class 개발자 {
+    costurctor(programming_language_list, communication_skill, CS_knowledge) {
+        this.programming_language_list = programming_language_list;
+        this.communication_skill = communication_skill;    // 0 ~ 10
+        this.CS_knowledge = CS_knowledge;                  // 0 ~ 10  
+    }
+
+    기록하기() {
+        공부한 내용을 자신의 것으로 만들기 위해 기록한다.;
+    }
+
+    프로젝트개발() {
+        if(this.comunicaiton_skill > 7) {
+            return 좋은 프로젝트;
+        } 
+    }
+}
+```
+
+
 
 # 💡 해석 공유하기
 
