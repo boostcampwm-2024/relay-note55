@@ -24,7 +24,23 @@
 - 월요일: 그냥 클래스 문법이 다양하네.. 하고 넘어가지 않고 JS prototype을 분석하고 자료로 남김
 - 수요일: TDD를 실천함. 기능검사를 모두 테스트가 해줌
 - 목요일: 지식의 한계에 부딪혀 프로그램이 동작을 안하는 사태 발생. 포기하지 않고 끈질기게 매달려서 비동기까지는 해냄. 모르는건 평생 생기는거라 이런 독기는 개발자가 되기 위해 꼭 필요한 요소라고 생각함
+    
+**K015 김한울**
+- 수요일: 함수형 프로그래밍 forEach 만들면서 내부 라이브러리 forEach 코드 확인 후 재귀형태로 재작성함
+  ```kt
+      // 원래 forEach
+      public inline fun <T> Iterable<T>.forEach(action: (T) -> Unit): Unit {
+         for (element in this) action(element)
+      }
 
+      // 실제 구현한 코루틴
+      fun LinkedList.forEach(node: ListNode?, action: (ListNode) -> Unit) {
+        if (node == null) return
+        action(node)
+        forEach(node.next, action)
+      }
+  ```
+    
 **J217 전현민**
 ```javascript
 class 개발자 {
