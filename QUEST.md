@@ -33,7 +33,7 @@
          for (element in this) action(element)
       }
 
-      // 실제 구현한 코루틴
+      // 실제 구현한 재귀 활용 forEach
       fun LinkedList.forEach(node: ListNode?, action: (ListNode) -> Unit) {
         if (node == null) return
         action(node)
