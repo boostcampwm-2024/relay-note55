@@ -69,7 +69,8 @@
     
     - 부끄러웠지만 함께 스트레칭을 할 수 있고 건강을 챙길 수 있었어서 좋았습니다!
 
-![스크린샷 2024-08-02 오후 1 53 25](https://gist.github.com/user-attachments/assets/4363aa20-ef8e-42b1-ad65-1efb1a8686b9)
+![KakaoTalk_Photo_2024-08-02-14-12-04](https://github.com/user-attachments/assets/5f79bad7-aeb8-40b1-bc7a-b26910958131)
+
 
 **K024 박모은**
 - 미션 내용: 오늘 하루의 목표 또는 내일의 목표를 세워보기
